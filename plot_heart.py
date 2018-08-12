@@ -31,7 +31,6 @@ vol = f_heart(X,Y,Z)
 verts, faces ,_ ,_ = measure.marching_cubes_lewiner(vol, 0, spacing=(0.1, 0.1, 0.1))
 
 # Create a 3D figure
-plt.ion() # enable interaction
 fig = plt.figure(figsize=(12,8))
 ax = fig.add_subplot(111, projection='3d')
 
